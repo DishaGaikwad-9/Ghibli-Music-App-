@@ -8,10 +8,15 @@ This app is designed to provide a relaxing experience through Ghibli-style music
 🎧 Studio Ghibli–inspired music playback
 
 ⏯️ Play / Pause / Track controls
+
 🎼 Curated music list for relaxation
+
 🎨 Aesthetic Ghibli-themed UI
+
 📱 Responsive design (works on desktop and mobile)
+
 🔊 Smooth audio transitions
+
 🌙 Calm and minimal user experience
 
 🛠️ Tech Stack
@@ -57,4 +62,11 @@ All music and inspirations belong to their respective owners.
 
 Inspired by Studio Ghibli
 Music used for non-commercial, educational purposes only
+
+📸 Preview
+<img width="1065" height="1244" alt="Screenshot 2026-01-30 011557" src="https://github.com/user-attachments/assets/2f254edd-894b-4fff-b049-491fd5fa9999" />
+<img width="1071" height="1236" alt="Screenshot 2026-01-30 011617" src="https://github.com/user-attachments/assets/621110a2-65fc-474d-9a2b-ad1447a78277" />
+
+The application features a dynamic Day and Night mode, where the Day mode showcases gently floating cloud animations, and the Night mode is enhanced with softly glowing, floating fireflies. These subtle animations add a soothing sense of calm and immersion to the user experience. The modes can be seamlessly switched using an intuitive sun/moon toggle located at the top-right corner of the interface.
+
 
