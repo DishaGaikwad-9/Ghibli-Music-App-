@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ghibli Music App</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Day/Night Toggle -->
+  <button id="theme-toggle" title="Toggle Theme"></button>
+
+  <!-- Clouds (Day mode only) -->
+  <div class="clouds" id="clouds">
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+  </div>
+
+  <!-- Fireflies (Night mode only) -->
+  <div class="fireflies" id="fireflies"></div>
+
+  <div class="music-player">
+    <img src="" id="cover" class="cover" />
+    <h4 id="song-title"></h4>
+    <div class="controls">
+      <button id="prev"><img src="assets/covers/prev.png"/></button>
+      <button id="play"><img src="assets/covers/play.png"/></button>
+      <button id="next"><img src="assets/covers/next.png"/></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

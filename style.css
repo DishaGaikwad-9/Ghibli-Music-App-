@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #333;
+    background: url('assets/covers/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 60px;
+    overflow: hidden;
+    transition: background 0.5s ease-in-out;
+  }
+  
+  /* Toggle Button */
+  #theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: url('assets/covers/sun.png') no-repeat center center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  /* Clouds */
+  .clouds {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35vh;
+    pointer-events: none;
+    z-index: 0;
+  }
+  
+  .cloud {
+    position: absolute;
+    background: url('assets/covers/cloud.png') no-repeat;
+    background-size: contain;
+    width: 350px;
+    height: 650px;
+    opacity: 100;
+    animation: drift 60s linear infinite;
+  }
+  .cloud1 { top: 5%; left: -200px; animation-delay: 0s; }
+  .cloud2 { top: 15%; left: -300px; animation-delay: 15s; }
+  .cloud3 { top: 25%; left: -400px; animation-delay: 30s; }
+  
+  @keyframes drift {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(150vw); }
+  }
+  
+  /* Fireflies */
+  .fireflies {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    display: none;
+  }
+  
+  .firefly {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: rgb(255, 255, 92);
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: twinkle 2s infinite alternate ease-in-out;
+  }
+  
+  @keyframes twinkle {
+    0% { transform: translateY(0) scale(1); opacity: 0.5; }
+    100% { transform: translateY(-20px) scale(1.2); opacity: 1; }
+  }
+  
+  /* Music Player UI */
+  .music-player {
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    text-align: center;
+    width: auto;
+    z-index: 1;
+  }
+
+  #song-title{
+    margin-top: 10px;
+    background: rgba(252, 249, 106, 0.8);
+    padding: 10px;
+    border-radius: 12px;
+    width: 300px;
+    font-size: 18px;
+  }
+  
+  .cover {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+  }
+  
+  .controls button {
+    background-color: rgba(233, 185, 40, 0.915);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+    border: none;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .controls button:hover {
+    transform: scale(1.1);
+  }
+  
+  .controls button img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  /* NIGHT MODE STYLES */
+  body.night {
+    background: url('assets/covers/night.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 60px;
+    overflow: hidden;
+    transition: background 0.5s ease-in-out;
+  }
+  
+  body.night #theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: url('assets/covers/moon.png') no-repeat center center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
