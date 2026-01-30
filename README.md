@@ -4,6 +4,7 @@ A Ghibli-inspired desktop music player built with Electron, featuring a calming 
 
 
 Features
+
 🎧 Music Playback
 
 Offline audio playback using native browser audio APIs
@@ -49,18 +50,19 @@ npm install
 # Run the Electron app
 npm start
 
-Requirements
-
-npm
-
-Electron
 
 Project Structure
+
 ghibli-music-app/
+
 ├── index.html        # Main UI layout
+
 ├── style.css         # Ghibli-inspired styling & animations
+
 ├── script.js         # Music logic & UI interactions
+
 ├── main.js           # Electron main process
+
 └── package.json      # App configuration
 
 
@@ -75,6 +77,7 @@ Inspired by Studio Ghibli
 Music used for non-commercial, educational purposes only
 
 📸 Preview
+
 <img width="1065" height="1244" alt="Screenshot 2026-01-30 011557" src="https://github.com/user-attachments/assets/2f254edd-894b-4fff-b049-491fd5fa9999" />
 <img width="1071" height="1236" alt="Screenshot 2026-01-30 011617" src="https://github.com/user-attachments/assets/621110a2-65fc-474d-9a2b-ad1447a78277" />
 
