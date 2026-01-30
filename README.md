@@ -1,57 +1,68 @@
 🎶 Ghibli Music App
 
-A calming and aesthetic music application inspired by the magical world of Studio Ghibli.
-This app is designed to provide a relaxing experience through Ghibli-style music, minimal UI, and smooth interactions—perfect for focus, relaxation, and peaceful listening.
+A Ghibli-inspired desktop music player built with Electron, featuring a calming animated UI, offline music playback, and immersive theme-based visuals.
 
-🌟 Features
 
-🎧 Studio Ghibli–inspired music playback
+Features
+🎧 Music Playback
 
-⏯️ Play / Pause / Track controls
+Offline audio playback using native browser audio APIs
 
-🎼 Curated music list for relaxation
+Playlist-based song navigation
 
-🎨 Aesthetic Ghibli-themed UI
+Play, pause, next, and previous controls
 
-📱 Responsive design (works on desktop and mobile)
+Lightweight and fast desktop performance
 
-🔊 Smooth audio transitions
+🌿 Ghibli-Inspired UI
 
-🌙 Calm and minimal user experience
+Soft pastel color palette inspired by Studio Ghibli
 
-🛠️ Tech Stack
+Smooth CSS animations for enhanced ambience
 
-Frontend: HTML, CSS, JavaScript
-Audio Handling: HTML5 Audio API
-Styling: CSS / Tailwind CSS
-Version Control: Git & GitHub
+Minimalist and distraction-free design
 
-🚀 Getting Started
+🌗 Theme Switching
 
-Follow these steps to run the project locally:
+Day and night modes for different moods
 
-1️⃣ Clone the repository
-git clone https://github.com/your-username/Ghibli-Music-App.git
+Dynamic UI transitions without page reloads
 
-2️⃣ Navigate to the project folder
-cd Ghibli-Music-App
+Real-time theme switching using JavaScript state handling
 
-3️⃣ Open the app
+Tech Stack
 
-Simply open index.html in your browser
-OR
-Use a local server (recommended for best performance)
+Frontend / UI : HTML, CSS, JavaScript
+Desktop Runtime : Electron
+Audio Handling : HTML5 Audio API
+Styling : CSS Animations, Flexbox
+Platform : Cross-platform (Windows, macOS, Linux)
 
-npx serve
+Local Development
+# Clone the repository
+git clone https://github.com/your-username/ghibli-music-app.git
+cd ghibli-music-app
 
-📁 Project Structure
-Ghibli-Music-App/
-│
-├── assets/          # Audio files & images
-├── css/             # Styling files
-├── js/              # JavaScript logic
-├── index.html       # Main entry point
-└── README.md        # Project documentation
+# Install dependencies
+npm install
+
+# Run the Electron app
+npm start
+
+Requirements
+
+npm
+
+Electron
+
+Project Structure
+ghibli-music-app/
+├── index.html        # Main UI layout
+├── style.css         # Ghibli-inspired styling & animations
+├── script.js         # Music logic & UI interactions
+├── main.js           # Electron main process
+└── package.json      # App configuration
+
 
 📜 License
 
