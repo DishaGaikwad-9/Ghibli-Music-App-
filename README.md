@@ -7,29 +7,21 @@ Features
 
 🎧 Music Playback
 
-Offline audio playback using native browser audio APIs
-
-Playlist-based song navigation
+Offline audio playback 
 
 Play, pause, next, and previous controls
 
-Lightweight and fast desktop performance
-
 🌿 Ghibli-Inspired UI
 
-Soft pastel color palette inspired by Studio Ghibli
+Soft pastel visuals with smooth CSS animations
 
-Smooth CSS animations for enhanced ambience
-
-Minimalist and distraction-free design
+Minimalist, calming user experience
 
 🌗 Theme Switching
 
-Day and night modes for different moods
+Day and night modes with real-time transitions
 
-Dynamic UI transitions without page reloads
-
-Real-time theme switching using JavaScript state handling
+Seamless theme changes using JavaScript
 
 Tech Stack
 
