@@ -31,17 +31,6 @@ Audio Handling : HTML5 Audio API
 Styling : CSS Animations, Flexbox
 Platform : Cross-platform (Windows, macOS, Linux)
 
-Local Development
-# Clone the repository
-git clone https://github.com/your-username/ghibli-music-app.git
-cd ghibli-music-app
-
-# Install dependencies
-npm install
-
-# Run the Electron app
-npm start
-
 
 Project Structure
 
