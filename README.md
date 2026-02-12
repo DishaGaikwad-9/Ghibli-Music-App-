@@ -17,10 +17,11 @@ Day/Night Mode – Dynamic theme switching with real-time transitions
 Lightweight & Fast – Optimized Electron desktop performance
 
 ## 🚀 Quick Start
-# Install dependencies
+
+Install dependencies
 npm install
 
-# Run the Electron app
+Run the Electron app
 npm start
 
 ## 🎮 How to Use
