@@ -36,11 +36,15 @@ Close the window to exit the app
 
 ## Tech Stack
 
-Frontend / UI : HTML, CSS, JavaScript
-Desktop Runtime : Electron
-Audio Handling : HTML5 Audio API
-Styling : CSS Animations, Flexbox
-Platform : Cross-platform (Windows, macOS, Linux)
+🛠️ Technologies
+
+Electron
+
+HTML5
+
+CSS3 (Animations & Transitions)
+
+HTML5 Audio API
 
 ## Project Structure
 
