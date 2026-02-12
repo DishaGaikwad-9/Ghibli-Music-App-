@@ -1,27 +1,37 @@
-🎶 Ghibli Music App
+🎶 Ghibli Music App – Desktop Music Player
 
-A Ghibli-inspired desktop music player built with Electron, featuring a calming animated UI, offline music playback, and immersive theme-based visuals.
+A Studio Ghibli–inspired desktop music player built with Electron. Enjoy calming visuals, smooth animations, and offline music playback in a beautifully designed aesthetic interface.
 
+✨ Features
 
-Features
+🎧 Offline Music Playback – Play local audio files without internet
 
-🎧 Music Playback
+Full Playback Controls – Play, pause, next, previous
 
-Offline audio playback 
+Playlist Support – Seamless track navigation
 
-Play, pause, next, and previous controls
+Ghibli-Inspired UI – Soft pastel theme with smooth animations
 
-🌿 Ghibli-Inspired UI
+Day/Night Mode – Dynamic theme switching with real-time transitions
 
-Soft pastel visuals with smooth CSS animations
+Lightweight & Fast – Optimized Electron desktop performance
 
-Minimalist, calming user experience
+🚀 Quick Start
+# Install dependencies
+npm install
 
-🌗 Theme Switching
+# Run the Electron app
+npm start
 
-Day and night modes with real-time transitions
+🎮 How to Use
 
-Seamless theme changes using JavaScript
+Click Play to start music
+
+Use Next / Previous to switch tracks
+
+Toggle Day/Night mode from the top corner
+
+Close the window to exit the app
 
 Tech Stack
 
@@ -30,7 +40,6 @@ Desktop Runtime : Electron
 Audio Handling : HTML5 Audio API
 Styling : CSS Animations, Flexbox
 Platform : Cross-platform (Windows, macOS, Linux)
-
 
 Project Structure
 
@@ -45,7 +54,6 @@ ghibli-music-app/
 ├── main.js           # Electron main process
 
 └── package.json      # App configuration
-
 
 📜 License
 
